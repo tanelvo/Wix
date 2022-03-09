@@ -1,14 +1,16 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/Home';
+import NavigationBar from './components/NavigationBar';
 import './App.css';
+import './components/style.css'
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <NavigationBar />
       <Routes>
-        <Route path="/" exact element={<Home />} />
+        <Route path="/home" exact element={<Home />} />
       </Routes>
     </Router>
   );

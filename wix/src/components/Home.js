@@ -1,10 +1,10 @@
 import React from 'react'
+import Introduction from './Introduction';
 
 function Home(){
             // Leht jaotatud Tükkideks
-    return(
-        <>
-            <Introduction />
+
+            /*
             <Descripton />
             <Templates />
             <Editor />
@@ -15,6 +15,11 @@ function Home(){
             <Blog />
             <FAQ />
             <About />
+            */
+    return(
+        <>
+            <Introduction />
+            
         </>
     )
 }

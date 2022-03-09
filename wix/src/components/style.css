@@ -1,0 +1,64 @@
+/* Kõik styling tuleb siia */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+}
+
+.btn-primary {
+    color: #166AEA;
+    background-color: #fff;
+    background-color: cutom-color;
+    border-color: #166AEA;
+    border-color: cutom-cor;
+    border-radius: 25px;
+    width: 12rem;
+}
+
+/* Navigation bar styles */
+
+#navbar-link-el {
+    text-decoration: none;
+    padding: 0 1rem;
+    color: #000000;
+    opacity: 0.9;
+}
+#navbar-link-el:hover {
+    opacity: 1;
+    color: #166AEA;
+}
+#navbar-logo {
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+#basic-nav-dropdown {
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+#basic-nav-dropdown:hover {
+    color: #166AEA;
+}
+#img-logo {
+    width: 4rem;
+}
+/* Register page styles */
+.register-form {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+#register-submit-btn {
+    width: 100%;
+}
+/* Login page styles */
+.login-form {
+    display: grid;
+    place-items: center;
+}
