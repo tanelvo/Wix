@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function NavigationBar() {
     return (
         <>
-            <Navbar  expand="lg" className="navbar" sticky="top">
+            <Navbar  expand="lg" className="navbar" fixed="top" >
             <Link to="/">
                 <img src='../wixlogo.jpg' alt="Wix Logo" id='img-logo'/>
             </Link>
@@ -30,18 +30,6 @@ function NavigationBar() {
                     <NavDropdown.Item>Seaded</NavDropdown.Item>
                     <NavDropdown.Item>Logi välja</NavDropdown.Item>
                 </NavDropdown>
-                <NavDropdown title="Enterprise" id="basic-nav-dropdown" className="navbar-username-el">
-                    <NavDropdown.Item>Seaded</NavDropdown.Item>
-                    <NavDropdown.Item>Logi välja</NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title="Pricing" id="basic-nav-dropdown" className="navbar-username-el">
-                    <NavDropdown.Item>Seaded</NavDropdown.Item>
-                    <NavDropdown.Item>Logi välja</NavDropdown.Item>
-                </NavDropdown>
-                <NavDropdown title="Support" id="basic-nav-dropdown" className="navbar-username-el">
-                    <NavDropdown.Item>Seaded</NavDropdown.Item>
-                    <NavDropdown.Item>Logi välja</NavDropdown.Item>
-                </NavDropdown>
                 <Nav className="m-auto">
                     <Link id="navbar-link-el" to="/">Enterprise</Link> 
                     <Link id="navbar-link-el" to="/">Pricing</Link> 
@@ -52,7 +40,7 @@ function NavigationBar() {
                     <NavDropdown.Item>Logi välja</NavDropdown.Item>
                 </NavDropdown>
                 </Navbar.Collapse>
-                <Button variant="primary">Sign In</Button>
+                <Button variant="custom">Sign In</Button>
             </Navbar>
         </>
     )

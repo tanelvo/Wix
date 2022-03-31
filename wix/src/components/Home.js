@@ -1,5 +1,6 @@
 import React from 'react'
 import Introduction from './Introduction';
+import Descripton from './Description';
 
 function Home(){
             // Leht jaotatud Tükkideks
@@ -19,6 +20,7 @@ function Home(){
     return(
         <>
             <Introduction />
+            <Descripton />
             
         </>
     )

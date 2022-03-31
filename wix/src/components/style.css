@@ -8,18 +8,125 @@ body {
     width: 100%;
 }
 
-.btn-primary {
+.btn-custom {
     color: #166AEA;
     background-color: #fff;
-    background-color: cutom-color;
     border-color: #166AEA;
-    border-color: cutom-cor;
     border-radius: 25px;
     width: 12rem;
+}
+.btn-custom:hover {
+    color: #fff;
+    background-color: #166AEA;
+    border-color: #166AEA;
+    border-radius: 25px;
+    width: 12rem;
+}
+.btn-secondary:disabled {
+    color: #fff;
+    background-color: #116DFF;
+    border-color: #166AEA;
+    border-radius: 30px;
+    width: 13rem;
+    height: 60px;
+    font-size:23px;
+    opacity: 1;
+}
+
+/* introduction */
+.introduction {
+    text-align: center;
+}
+.introduction-h1 {
+    font-size:600%;
+    font-weight: bold;
+}
+.introduction-h4 {
+    font-size: 130%;
+    font-weight: 400;
+}
+.introduction-h5 {
+    font-size: 90%;
+    font-weight: 350;
+}
+.btn-primary {
+    color: #ea1616;
+}
+
+/* Description */
+.description-1 {
+    margin-left: 32px;
+}
+.description-2 {
+    margin-left: 58px;
+    margin-right: 40px;
+}
+.float-child {
+    width: 50%;
+    float: left;
+    background-color: #14348e;
+    text-align: center;
+}
+.float-child-1 {
+    width: 50%;
+    float: left;
+    background-color: #035946;
+}
+.float-child-2 {
+    width: 50%;
+    float: left;
+    background-color: #14348e;
+}
+.float-child-3 {
+    width: 47%;
+    float: left;
+    background-color: #035946;
+}
+.float-child-4 {
+    width: 53%;
+    float: left;
+}
+.description-h1 {
+    font-size:320%;
+    color:#fff;
+    line-height: 50px;
+}
+.description-h2 {
+    font-size:135%;
+    font-weight: 500;
+    color:#fff;
+    line-height: 50px;
+}
+.description-h3 {
+    font-size:135%;
+    font-weight: 350;
+    color:#fff;
+    line-height: 50px;
+}
+.description-h3-2 {
+    font-size:135%;
+    font-weight: 350;
+    color:#fff;
+    line-height: 32px;
+}
+.description-p {
+    font-size:17px;
+    font-weight: 350;
+    color:#fff;
+    line-height: 25.5px;
+}
+.description-a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 /* Navigation bar styles */
 
+.navbar{
+    background-color: #fff;
+    height: 71px;
+}
 #navbar-link-el {
     text-decoration: none;
     padding: 0 1rem;
