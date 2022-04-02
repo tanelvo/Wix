@@ -60,7 +60,7 @@ function Description() {
                     <div style={{ backgroundImage:`url(${background})`}}>
                         <div style={{height: 300}}><br/></div>
                         <Image src={image} style={{width: "100%"}}></Image>
-                        <div style={{height: 183}}><br/></div>
+                        <div style={{height: 184}}><br/></div>
                     </div>
                 </div>
             </div>

@@ -13,14 +13,15 @@ body {
     background-color: #fff;
     border-color: #166AEA;
     border-radius: 25px;
-    width: 12rem;
+    width: 8rem;
+
 }
 .btn-custom:hover {
     color: #fff;
     background-color: #166AEA;
     border-color: #166AEA;
     border-radius: 25px;
-    width: 12rem;
+    width: 8rem;
 }
 .btn-secondary:disabled {
     color: #fff;
@@ -120,6 +121,11 @@ body {
     font-size: 24px;
     font-weight: 500;
 }
+.description-a:hover {
+    color: rgb(233, 233, 233);
+    font-size: 24px;
+    font-weight: 500;
+}
 
 /* Navigation bar styles */
 
@@ -132,6 +138,10 @@ body {
     padding: 0 1rem;
     color: #000000;
     opacity: 0.9;
+}
+.navbar-container {
+    margin-left: 30px;
+    margin-right: -60px;
 }
 #navbar-link-el:hover {
     opacity: 1;
@@ -146,26 +156,15 @@ body {
 }
 #basic-nav-dropdown {
     color: #000000;
-    font-size: 14px;
-    letter-spacing: 0.5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-right: 5px;
 }
 #basic-nav-dropdown:hover {
     color: #166AEA;
 }
-#img-logo {
+.img-logo {
     width: 4rem;
+    margin-right: 20px;
 }
-/* Register page styles */
-.register-form {
-    display: grid;
-    place-items: center;
-    height: 100%;
-}
-#register-submit-btn {
-    width: 100%;
-}
-/* Login page styles */
-.login-form {
-    display: grid;
-    place-items: center;
-}
+

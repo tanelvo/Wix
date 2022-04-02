@@ -1,13 +1,13 @@
 import React from 'react'
 import Introduction from './Introduction';
 import Descripton from './Description';
+import Templates from './Templates';
+import Editor from './Editor';
 
 function Home(){
             // Leht jaotatud Tükkideks
 
             /*
-            <Descripton />
-            <Templates />
             <Editor />
             <Tools />
             <Business />
@@ -21,7 +21,8 @@ function Home(){
         <>
             <Introduction />
             <Descripton />
-            
+            <Templates />
+            <Editor />
         </>
     )
 }
