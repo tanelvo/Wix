@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Image } from "react-bootstrap";
 import "./style.css";
-import background from "../images/bg1.jpg";
+import background from "../images/bg1.webp";
 import image from "../images/desktop.webp";
 
 function Introduction() {
@@ -16,8 +16,9 @@ function Introduction() {
                     <h4 className="introduction-h4">Discover the platform that gives you the freedom to create, design,<br/>manage and develop your web presence exactly the way you want.</h4>
                     <br/><Button variant="secondary" disabled>Get Started</Button><br/><br/>
                     <h5 className="introduction-h5">Try Wix. No credit card required.</h5><br/>
+                    <Image src={ image } style={{width: "1270px"}}></Image>
                 </div>
-                <Image src={ image } style={{width: "100%"}}></Image>
+                
             </div>
         </>
     )

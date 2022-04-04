@@ -16,8 +16,14 @@ body {
     margin-top: 50px;
 }
 .templates-2 {
+    text-align: center;
     background-color: #F4F4F4;
     margin-bottom: 775px;
+}
+.templates-2-1 {
+    background-color: #F4F4F4;
+    width: 1275px;
+    margin: 0 auto;
 }
 
 .templates-h1 {

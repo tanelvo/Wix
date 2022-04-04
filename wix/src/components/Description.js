@@ -56,10 +56,10 @@ function Description() {
                     </div>
                 </div>
 
-                <div class="float-child-2">
+                <div class="float-child">
                     <div style={{ backgroundImage:`url(${background})`}}>
                         <div style={{height: 300}}><br/></div>
-                        <Image src={image} style={{width: "100%"}}></Image>
+                        <Image src={image} style={{width: "560px"}}></Image>
                         <div style={{height: 184}}><br/></div>
                     </div>
                 </div>

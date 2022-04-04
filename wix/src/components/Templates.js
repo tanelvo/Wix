@@ -26,21 +26,21 @@ function Templates() {
                 <div className="templates-2">
                     <div className="templates-2-1">
                         <div className="temp-child-1">
-                            <NavLink><Image src={image1} style={{width: "100%"}}></Image></NavLink>
+                            <NavLink><Image src={image1} style={{width: "361px"}}></Image></NavLink>
                             <h4 className="templates-h4">Blog</h4>
-                            <NavLink><Image src={image4} style={{width: "100%"}}></Image></NavLink>
+                            <NavLink><Image src={image4} style={{width: "361px"}}></Image></NavLink>
                             <h4 className="templates-h4">Design</h4>
                         </div>
                         <div className="temp-child-2">
-                            <NavLink><Image src={image2} style={{width: "100%"}}></Image></NavLink>
+                            <NavLink><Image src={image2} style={{width: "361px"}}></Image></NavLink>
                             <h4 className="templates-h4">Business</h4>
-                            <NavLink><Image src={image5} style={{width: "100%"}}></Image></NavLink>
+                            <NavLink><Image src={image5} style={{width: "361px"}}></Image></NavLink>
                             <h4 className="templates-h4">Photography</h4>
                         </div>
                         <div className="temp-child-3">
-                            <NavLink><Image src={image3} style={{width: "100%"}}></Image></NavLink>
+                            <NavLink><Image src={image3} style={{width: "361px"}}></Image></NavLink>
                             <h4 className="templates-h4">Online Store</h4>
-                            <NavLink><Image src={image6} style={{width: "100%"}}></Image></NavLink>
+                            <NavLink><Image src={image6} style={{width: "361px"}}></Image></NavLink>
                             <h4 className="templates-h4">Education</h4>
                         </div>
                     </div>
