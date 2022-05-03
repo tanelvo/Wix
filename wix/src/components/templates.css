@@ -4,7 +4,7 @@
 }
 body {
     width: 100%;
-    background-color: #F4F4F4;
+
 }
 
 /* Templates */
@@ -18,7 +18,8 @@ body {
 .templates-2 {
     text-align: center;
     background-color: #F4F4F4;
-    margin-bottom: 775px;
+    margin-bottom: 125px;
+    float: left;
 }
 .templates-2-1 {
     background-color: #F4F4F4;
@@ -29,8 +30,8 @@ body {
 .templates-h1 {
     font-size:320%;
     color:#000;
-    line-height: 50px;
     line-height: 58px;
+    font-weight: 700;
 }
 .templates-h2 {
     font-size:320%;

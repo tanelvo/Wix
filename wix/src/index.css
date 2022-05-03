@@ -6,7 +6,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+@font-face {
+  font-family: "WixMadeforTextRegular";
+  src: local("WixMadeforTextRegular"),
+  url("./fonts/WixMadeforTextRegular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "WixMadeforTextBold";
+  src: local("WixMadeforTextBold"),
+  url("./fonts/WixMadeforTextBold.otf") format("opentype");
+  font-weight: normal;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

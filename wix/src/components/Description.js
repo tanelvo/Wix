@@ -11,7 +11,7 @@ function Description() {
             <div>
                 <div class="float-child">
                 <div style={{height: 108}}><br/></div>
-                    <div style={{marginLeft: -24}}>
+                    <div style={{marginLeft: -5}}>
                         <h1 className="description-h1">The Freedom to Create<br/>the Websites You Want</h1>
                     </div>
                 <div style={{height: 204}}><br/></div>
@@ -60,7 +60,7 @@ function Description() {
                     <div style={{ backgroundImage:`url(${background})`}}>
                         <div style={{height: 300}}><br/></div>
                         <Image src={image} style={{width: "560px"}}></Image>
-                        <div style={{height: 184}}><br/></div>
+                        <div style={{height: 240}}><br/></div>
                     </div>
                 </div>
             </div>

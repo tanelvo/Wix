@@ -2,7 +2,7 @@ import React from 'react'
 import Introduction from './Introduction';
 import Descripton from './Description';
 import Templates from './Templates';
-import Editor from './Editor';
+import Tools from './Tools';
 
 function Home(){
             // Leht jaotatud Tükkideks
@@ -22,7 +22,7 @@ function Home(){
             <Introduction />
             <Descripton />
             <Templates />
-            <Editor />
+            <Tools />
         </>
     )
 }
